@@ -1,0 +1,24 @@
+    
+    table,
+    th,
+    td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        text-align: center;
+        font-family: 標楷體;
+        width: 6cm;
+    }
+    
+     th {
+        background-color: black;
+        color: white;
+    }
+    
+     tr:nth-child(even) {
+        background-color: gray;
+        color: black;
+    }
